@@ -1,0 +1,79 @@
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@font-face {
+    font-family:Libre;
+    src: url(LibreFranklin-VariableFont_wght.ttf);
+    
+} 
+
+@font-face {
+    font: family Libre2;
+    src: url(LibreFranklin-VariableFont_wght.ttf);
+    
+} 
+
+
+h1 {
+    font-weight: 10;
+}
+
+h1 strong {
+    font-weight: 700;
+} 
+
+
+#h1{
+    color: #9a9a9a;
+    font-family: 'libre2',sans-serif;
+    font-weight:bold;
+    font-size: 10px;
+}
+
+span{font-weight: bold;
+    color: black;
+}
+input {
+  
+    border-radius: 10px;
+    border-color: #f1f5fe;
+
+}
+
+button {
+    background-color: hsl(223, 57%, 52%);
+    color: white;
+    border-radius: 10px;
+    
+   }
+
+#i2{
+    height: 350px;
+    width: 600;
+}
+#d2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    object-fit: contain; 
+    padding: 10px;
+}
+#h2{
+
+color: #B2BEB5;
+    font-family: 'libre2',sans-serif;
+    font-weight:bold;
+    font-size: 10px;
+}
+}
